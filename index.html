@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <h1>Hack Academy</h1>
+            <nav class="nav-link">
+                <button onclick="scrollToElement('hero')" class="nav-button">
+                    Home
+                </button>
+                <button onclick="scrollToElement('about')" class="nav-button">
+                    About
+                </button>
+                <button onclick="scrollToElement('mentor')" class="nav-button">
+                    Mentor
+                </button>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <article id="hero" class="hero-section">
+                    <div class="caption">
+                        <h1>Ayo Belajar Hacking Bareng</h1>
+                        <p>
+                            Yuk belajar hacking bersama mentor cyber security
+                            kami, kami akan mengajarkan bagaimana cara menjadi
+                            hacker yang handal
+                        </p>
+                        <button class="primary-button">
+                            Daftar Kelas Hacking
+                        </button>
+                    </div>
+                    <div class="hero">
+                        <img
+                            src="./images/hero.png"
+                            alt=""
+                            class="hero-image"
+                        />
+                    </div>
+                </article>
+                <article id="about" class="about-section">
+                    <h1>Tentang Kami</h1>
+                    <p>
+                        Kami adalah kumpulan para ahli keamanan informasi yang
+                        berpengalaman, peneliti keamanan, dan profesional TI
+                        yang berdedikasi untuk memberdayakan individu dengan
+                        pengetahuan dan keterampilan yang diperlukan untuk
+                        melindungi sistem mereka dari serangan siber. Melalui
+                        kursus kami, kami menyajikan materi yang komprehensif
+                        dan terkini tentang teknik-teknik yang digunakan oleh
+                        para hacker, termasuk pemindaian keamanan, identifikasi
+                        kerentanan, teknik serangan, dan praktik terbaik untuk
+                        memitigasi risiko keamanan.
+                    </p>
+                </article>
+                <article id="mentor" class="mentor-section">
+                    <h1>Mentor Kami</h1>
+                    <div class="mentor-list">
+                        <div class="mentor-card">
+                            <img
+                                src="https://storage.googleapis.com/bucket-dicoding-gcp-sainfaizal/foto-1.jpg"
+                                alt=""
+                                class="mentor-image"
+                            />
+                            <h1>Faizal Husain</h1>
+                        </div>
+                        <div class="mentor-card">
+                            <img
+                                src="https://storage.googleapis.com/bucket-dicoding-gcp-sainfaizal/foto-2.png"
+                                alt=""
+                                class="mentor-image"
+                            />
+                            <h1>Givandra</h1>
+                        </div>
+                        <div class="mentor-card">
+                            <img
+                                src="https://storage.googleapis.com/bucket-dicoding-gcp-sainfaizal/foto-3.jpg"
+                                alt=""
+                                class="mentor-image"
+                            />
+                            <h1>Zidan</h1>
+                        </div>
+                        <div class="mentor-card">
+                            <img
+                                src="https://storage.googleapis.com/bucket-dicoding-gcp-sainfaizal/foto-5.jpeg"
+                                alt=""
+                                class="mentor-image"
+                            />
+                            <h1>Givandra</h1>
+                        </div>
+                        <div class="mentor-card">
+                            <img
+                                src="https://storage.googleapis.com/bucket-dicoding-gcp-sainfaizal/foto-6.jpg"
+                                alt=""
+                                class="mentor-image"
+                            />
+                            <h1>Zidan</h1>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <aside class="social-link">
+                <a href="#">
+                    <img src="./image/instagram.svg" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/whatsapp.svg" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/tiktok.svg" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/youtube.svg" alt="" />
+                </a>
+            </aside>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2024 Hack Academy</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
